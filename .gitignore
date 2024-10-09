@@ -1,0 +1,17 @@
+# Исключение конфигурационного файла WordPress
+wp-config.php
+
+# Исключение папки с загруженными файлами
+wp-content/uploads/
+
+# Исключение зависимостей Node.js
+node_modules/
+
+# Исключение скрытых системных файлов macOS
+.DS_Store
+
+# Исключение папки с зависимостями PHP Composer
+vendor/
+
+wp-admin
+wp-includes

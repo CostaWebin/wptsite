@@ -1,0 +1,60 @@
+/*
+Theme Name: TestTheme
+Theme URI: https://coiv.ru
+Author: Костя Вебин
+Author URI: https://coiv.ru
+Description: Просто очередная тестовая тема
+Text Domain: tsite
+Version: 1.0
+*/
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.card-thumb img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.card-full-thumb img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 400px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.tsite-format-image {
+    position: relative;
+}
+
+.tsite-format-image .card-title {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.tsite-format-image .card-title a {
+    color: #fff;
+    background-color: rgb(0, 0, 0, .3);
+    text-decoration: none;
+    padding: 20px 30px;
+    text-transform: uppercase;
+}
