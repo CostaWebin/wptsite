@@ -1,5 +1,6 @@
 <?php
 
+echo 'ТАМ ДОЛЖНО ЧТО-ТО ИЗМЕНИТЬСЯ';
 
 function tsite_debug( $data ) {
 	echo '<pre>' . print_r( $data, TRUE ) . '</pre>';
